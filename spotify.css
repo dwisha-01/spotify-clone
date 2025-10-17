@@ -1,0 +1,230 @@
+body, html{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+       color: white;
+    background-color: rgba(0, 0, 0, 0.084);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+background-color: black;
+padding: 12px 20px;
+}
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+}
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  position: relative;
+}
+.login-btn{
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 14px;
+  
+}
+.signup-btn{
+    color: lightgray;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+.install-btn{
+    border-left: 1px solid white;
+    padding-left: 12px;
+    color: lightgray;
+    font-weight: bold;
+    font-size: 11px;
+}
+.support-btn{
+    color: lightgray;
+    padding-right: 15px;
+    padding-left: 2px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+.download-btn{
+    color: lightgray;
+    border: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bold;
+    font-size: small;
+}
+.premium-btn{
+    color: lightgray;
+    margin-left: auto;
+    border: none;
+    font-weight: bold;
+    font-size: small;
+}
+input[type="text"]{
+    border-radius: 20px;
+    background-color: rgb(36, 35, 35);
+    color: lightgray;
+    font-size: 15px;
+    width: 250px;
+    height: 25px;
+    outline: none;
+}
+.home-btn{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(36, 35, 35);
+    border-radius: 50%;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.content-area{
+    flex: 1;
+    display: flex;
+
+}
+.side-content{
+    background-color: rgb(36, 35, 35);
+     padding-top: 15px;
+     padding-left: 15px;
+    padding-right: 25px;
+    font-weight: bold;
+    font-size: x-small;
+}
+.library-con{
+   
+    font-size: larger;
+    padding-bottom: 30px;
+}
+.first-playlist{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25); /* subtle shadow for depth */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: rgb(40, 35, 35);
+}
+.create-play{
+    font-size: small;
+}
+.playlist-btn{
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+}
+.podcasts-content{
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25); /* subtle shadow for depth */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: rgb(40, 35, 35);
+}
+.find-pod{
+    font-size: small;
+}
+.podcasts-btn{
+ color: black;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer; 
+}
+
+.main-content{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25); 
+    background-color: rgb(36, 35, 35);
+    color: white;
+    border-radius: 5px;
+     font-weight: bold;
+     width: 100%;
+     box-sizing: border-box;
+}
+
+.trending-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.show{
+    color: grey;
+    border: none;
+    background: none;
+    margin-left: auto;
+}
+.song-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.song-card{
+    font-weight: bold;
+    font-size: 8px;
+    color: white;
+}
+.song-title{
+    font-weight: bold;
+    font-size: 12px;
+}
+.artist-name{
+    font-size: 10px;
+    color: rgb(157, 154, 154);
+}
+.song-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px; /* optional: for rounded corners */
+}
+
+footer{
+    background: linear-gradient(to right, #af2896, #509bf5);
+    color: white;
+   padding: 1px 10px;
+    
+    margin-top: auto;
+    font-weight: bold;
+    font-size: 12px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+}
+.sign-btn{
+     color: black;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    font-size: small;
+   padding: 10px 14px;
+    cursor: pointer;   
+}
